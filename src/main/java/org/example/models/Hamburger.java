@@ -63,6 +63,10 @@ public class Hamburger {
         return breadRollType;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public String getAddition1Name() {
         return addition1Name;
     }
@@ -117,8 +121,8 @@ public class Hamburger {
         }
 
 
-        return totalPrice;
-
+        price = totalPrice;
+        return price;
     };
 
 

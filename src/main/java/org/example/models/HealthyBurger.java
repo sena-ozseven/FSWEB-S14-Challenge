@@ -43,6 +43,7 @@ public class HealthyBurger extends Hamburger{
 
         System.out.println(hamburgerPrice);
 
+        setPrice(hamburgerPrice);
         return hamburgerPrice;
     }
 
